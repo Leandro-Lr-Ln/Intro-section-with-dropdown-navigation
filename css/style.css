@@ -1,0 +1,95 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus,
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+li a {
+    color: var(--Medium-Gray) !important;
+}
+
+.offcanvas-end {
+    width: 250px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item:active {
+    background: none;
+}
+
+.up {
+    display: none;
+}
+
+.open .up {
+    display: inline-block;
+}
+
+.down {
+    display: inline-block;
+}
+
+.open .down {
+    display: none;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.img-hero {
+    max-width: 390px;
+    width: 100%;
+}
+form .btn:first-child:hover{
+    background: none;
+    color: #696969;
+}
+a.btn,
+form .btn:nth-child(2){
+    border-radius: 15px;
+}
+@media (min-width:992px) {
+    .col-lg-7 {
+        padding-right: 90px !important;
+    }
+
+    .dropdown-menu {
+        border-radius: 10px;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.218);
+
+    }
+}
+@media (max-width:991px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .img-container img {
+        width: 70px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .order {
+        order: 1;
+    }
+    form{
+        display: none;
+    }
+}
